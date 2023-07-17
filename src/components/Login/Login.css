@@ -1,0 +1,33 @@
+.login {
+  max-width: 396px;
+  padding: 70px 0 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__title {
+  margin: 40px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 860px) {
+  .login {
+    padding: 232px 30px 56px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .login {
+    margin: 0;
+    max-width: 100%;
+    padding: 56px 30px 56px;
+    align-items: center;
+  }
+
+  .login__title {
+    margin-top: 48px;
+  }
+
+}
