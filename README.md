@@ -46,5 +46,5 @@ Movies Explorer - это интерактивная SPA-страница, на �
 - Backend:
   - Website: https://api.diplom-sukhov.nomoredomains.rocks
 
-IP: 84.201.138.115
+IP: 84.201.179.139
 - pull-request: https://github.com/AndreySukhov52/movies-explorer-frontend/pull/2
