@@ -1,0 +1,32 @@
+.register {
+  max-width: 396px;
+  padding: 70px 0 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register__title {
+  margin: 40px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 860px) {
+  .register {
+    padding: 232px 30px 56px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .register {
+    margin: 0;
+    max-width: 100%;
+    padding: 56px 30px 56px;
+    align-items: center;
+  }
+
+  .register__title {
+    margin-top: 48px;
+  }
+}
